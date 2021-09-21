@@ -43,7 +43,7 @@ let package = Package(
   products: [
     .library(
         name: "RSGFramework",
-        targets: ["RGSFramework"]),
+        targets: ["RSGFramework"]),
   ],
     targets: [
       .binaryTarget(
