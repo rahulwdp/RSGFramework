@@ -36,18 +36,18 @@
 import PackageDescription
 
 let package = Package(
-  name: "RGSFramework",
+  name: "RSGFramework",
   platforms: [
     .macOS(.v10_15), .iOS(.v14), .tvOS(.v14)
   ],
   products: [
     .library(
-        name: "RGSFramework",
+        name: "RSGFramework",
         targets: ["RGSFramework"]),
   ],
     targets: [
       .binaryTarget(
-        name: "RGSFramework",
+        name: "RSGFramework",
         path: "./Sources/RSGFramework.xcframework")
     ]
 )
