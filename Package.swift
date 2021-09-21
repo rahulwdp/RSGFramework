@@ -48,6 +48,6 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "RSGFramework",
-      path: "./RSGFramework.xcframework")
+      path: "RSGFramework.xcframework")
    ]
 )
